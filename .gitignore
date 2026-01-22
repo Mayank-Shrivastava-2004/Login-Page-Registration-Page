@@ -1,0 +1,55 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Expo
+.expo/
+.expo-shared/
+frontend/.expo/
+frontend/.expo-shared/
+dist/
+frontend/dist/
+
+# Build outputs
+web-build/
+frontend/web-build/
+
+# Environment variables
+.env
+backend/.env
+
+# Logs
+*.log
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.txt
+!README.txt
+
+# Mobile
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+
+# Testing
+coverage/
+.nyc_output/
